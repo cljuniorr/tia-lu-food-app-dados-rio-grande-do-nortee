@@ -9,7 +9,7 @@ def counting_sort(lista_de_dicionarios, id):
     
     tamanho_lista = len(lista_de_dicionarios)
     count = [0] * (max + 1)
-    lista_ordenada = []
+    lista_ordenada = [0] * tamanho_lista
 
     for i in range(tamanho_lista):
         elemento = lista_de_dicionarios[i]
